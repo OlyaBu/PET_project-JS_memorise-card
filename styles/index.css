@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "Aeroport_regular";
+    src: url("../assets/Aeroport-regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    background:#E5E5E5;
+height: 100%;
+	font-family: "Aeroport_regular";
+	
+
+}
+
+.header{
+	display: flex;
+	width:100vw;
+	height: 10vh;
+	background-color: black;
+	margin-top: 0%;
+	font-size: large;
+	color: #fff;
+	font-family: "Aeroport_regular", sans-serif;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 10px;
+	align-items: center;
+}
+
+.head{
+font-weight: 800;
+font-size: 8em;
+font-family: "Aeroport_regular";
+position: relative;
+left: 190px;
+
+}
+
+.card{
+    display: flex;
+    width: 30vw;
+    height: 60vh;
+    justify-items: center;
+}
+.left{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    flex-direction: column;
+    align-self: center;
+}
+.right{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: right;
+	height: 80vh;
+
+}
+.intro{
+display: flex;
+flex-wrap: nowrap;
+justify-items:center;
+align-self: center;
+margin: 3%;
+align-self: normal;
+
+}
+.discription{
+	font-size: 1.4em;
+	font-family: "Aeroport_regular";
+	position: relative;
+}
+
+/*ссылки хедера*/
+.header_2:active {
+		color: #ffffff;
+		text-decoration: underline;
+		text-decoration-color:#ECE856;
+	  
+		text-underline-offset: 15px;
+		text-decoration-thickness: 3px;
+	  }
+	
+
+.btn2,
+.btn {
+	
+	align-items: center;
+	display: inline-block;	
+	box-sizing: border-box;
+    padding: 1%;
+    margin: 5%;
+	outline: none;
+	border: rgb(86, 85, 85);    
+	border-radius:7px;
+	height: 10vh;
+	width: fit-content;
+	line-height: 37px;
+	font-size: 2em;
+	font-family: "Aeroport_regular";
+	text-transform: uppercase;
+	font-weight: normal;
+	text-decoration: none;
+	color: black;
+	background-color: #ECE856;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+	transition: box-shadow .18s ease-out, background .18s ease-out,color .18s ease-out;
+}
+.btn2:focus-visible,
+.btn:focus-visible {
+	box-shadow: 0 0 0 3px rgb(116, 116, 117);
+}
+.btn2:hover, 
+.btn:hover {
+	box-shadow: 0 1px 1px 0  #cfcfcf, 0 2px 5px 0  #cfcfcf;
+}
+.btn2:active,
+.btn:active {
+	background-color: #efefef !important;
+}
+
+.btn2:disabled,
+.btn:disabled {
+	background-color: #ECE856;
+	color: #444;
+	pointer-events: none;
+}
+.question{
+    height: 5vh;
+	justify-content:space-around;
+	width: 20vw;
+	font-size: 1.3rem;
+
+}
+textarea {
+	outline: none;
+	border-radius: 5%;
+}
+
+
+
+/*блок с кнопками и карточками*/
+.card{
+    margin-top: 10%;
+    display: flex;
+align-self: center;
+flex-direction: row;
+margin: 3%;
+height: fit-content;
+justify-items: center;
+justify-content:space-around;
+width: 90vw;
+
+}
+
+.step{
+	display: flex;
+	flex-wrap: wrap;
+align-content: flex-start;}
+

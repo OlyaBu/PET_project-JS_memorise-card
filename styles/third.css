@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "Aeroport_regular";
+    src: url("../assets/Aeroport-regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+  
+}
+
+.intro {
+    
+    height: 70vh;
+flex-wrap: wrap;  
+width: 35vw;  
+}
+
+.picture{
+    height: 30vh;
+
+}
+
+.right{
+ width: 65vw;
+}
+
+.header{
+	display: flex;
+	width:100vw;
+	height: 10vh;
+	background-color: black;
+	margin-top: 0%;
+	font-size: large;
+	color: #fff;
+	font-family: "Aeroport_regular", sans-serif;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 10px;
+	align-items: center;
+}
+
+
+    /*ссылки хедера*/
+    .header_2:active {
+        color: #ffffff;
+        text-decoration: underline;
+        text-decoration-color: #ECE856;
+
+        text-underline-offset: 15px;
+        text-decoration-thickness: 3px;
+    }
+    .head{
+        font-weight: 800;
+        font-size: 6em;
+        font-family: "Aeroport_regular";
+        position: relative;
+        left: 190px;
+        
+        }
+}
+
+    /*здесь стили для аккордеонов:*/
+
+.discription_accordion {
+    display: flex;
+    padding: 7vw 0 3vw 7vw;
+    font-size: 2.8rem;
+}
+
+.name_accordion {
+    font-size: 2.8rem;
+    font-weight: 600;
+    padding: 0 3% 0 3%;
+}
+
+.accordion_total {
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+    width: 30vw;
+    margin-left: 40%;
+    font-size: 1.8rem;
+
+}
+.active,
+.accordion:hover {
+    background-color: none;
+}
+.accordion:after {
+    content: "+";
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+.active:after {
+    content:"-";
+}
+.panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-family: "Aeroport", sans-serif;
+}
+
+@media screen and (max-width: 913px) {
+    .accordion {
+        color: black;
+        cursor: pointer;
+        padding: 18px;
+        border-bottom: 1px solid black;
+        text-align: left;
+        outline: none;
+        font-family: "Aeroport_regular", sans-serif;
+        font-size: 1.5rem;
+        transition: 0.4s;
+
+    }
+
+}
+
+
+    .accordion {
+        color: black;
+        cursor: pointer;
+        padding: 18px;
+        border-bottom: px solid black;
+        text-align: left;
+        outline: none;
+        font-family: "Aeroport_regular", sans-serif;
+        font-size: 2rem;
+        transition: 0.4s;
+
+    }
+
+
+
+

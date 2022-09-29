@@ -1,0 +1,123 @@
+.notes {
+    display: flex;
+    flex-direction: column;
+
+    width:80vw;
+    flex-wrap: wrap;
+    border: 3px solid red;
+    font-family: "Aeroport_regular", sans-serif;
+    font-size: 2em;
+    justify-content: center;
+    height: fit-content;
+    margin: 5%;
+
+}
+
+.user_note{
+    height: fit-content;
+    width: 20vw;
+    flex-wrap: wrap;
+    height:fit-content;
+    background: #2F4BA7;
+}
+@font-face {
+    font-family: "Aeroport_regular";
+    src: url("../assets/Aeroport-regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background: #FFD9C2;
+    height: 100%;
+    font-family: "Aeroport_regular";
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    margin-top: 0%;
+    font-size: large;
+    color: #fff;
+    font-family: "Aeroport_regular", sans-serif;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+
+
+}
+
+.head {
+    font-weight: 800;
+    font-size: 8em;
+    font-family: "Aeroport_regular";
+    position: relative;
+    left: 190px;
+
+}
+
+
+
+.card {
+    display: flex;
+    width: 30vw;
+    height: 60vh;
+    justify-items: center;
+}
+
+.left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    flex-direction: column;
+    align-self: center;
+    align-items: baseline;
+}
+
+.right {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: right;
+    height: 80vh;
+
+}
+
+.intro {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-items: center;
+    align-self: center;
+    margin: 3%;
+
+
+}
+
+.discription {
+    font-size: 1.4em;
+    font-family: "Aeroport_regular";
+    position: relative;
+}
+
+/*ссылки хедера*/
+.header_2:active {
+    color: #ffffff;
+    text-decoration: underline;
+    text-decoration-color: #ECE856;
+
+    text-underline-offset: 15px;
+    text-decoration-thickness: 3px;
+}
+
+ .picture{
+    margin-right: -5%;
+ }
+
+
