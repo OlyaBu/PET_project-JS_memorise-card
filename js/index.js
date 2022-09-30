@@ -10,10 +10,9 @@ button.addEventListener("click", function () {
     function getImage(max) {
         const random = Math.floor((Math.random() * (29 - 0 + 1)) + 1);   
         return '<img src="assets/card/'+random+'.jpg" border="0" height="400px" />';
+       
       }
-      
       document.getElementById("cardImg").innerHTML = getImage();
-      array.push(random)
 });
 
 
